@@ -1,0 +1,13 @@
+2022-04-17 22:15:58.011  INFO 3292 --- [main] com.vaibhav.mongodb.MongodbApplication   : Starting MongodbApplication using Java 11.0.11 on LAPTOP-JIVHSHJ5 with PID 3292 (C:\Users\HP\eclipse-workspace\mongodb\target\classes started by HP in C:\Users\HP\eclipse-workspace\mongodb)
+2022-04-17 22:15:58.018  INFO 3292 --- [main] com.vaibhav.mongodb.MongodbApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-04-17 22:15:58.577  INFO 3292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-04-17 22:15:58.774  INFO 3292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190 ms. Found 1 Reactive MongoDB repository interfaces.
+2022-04-17 22:15:59.480  INFO 3292 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-04-17 22:16:00.203  INFO 3292 --- [cluster-ClusterId{value='625c444763d8914cf7e546bc', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:13}] to 127.0.0.1:27017
+2022-04-17 22:16:00.203  INFO 3292 --- [cluster-rtt-ClusterId{value='625c444763d8914cf7e546bc', description='null'}-127.0.0.1:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:12}] to 127.0.0.1:27017
+2022-04-17 22:16:00.205  INFO 3292 --- [cluster-ClusterId{value='625c444763d8914cf7e546bc', description='null'}-127.0.0.1:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=79475500}
+2022-04-17 22:16:00.390  INFO 3292 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-04-17 22:16:00.400  INFO 3292 --- [main] com.vaibhav.mongodb.MongodbApplication   : Started MongodbApplication in 2.81 seconds (JVM running for 3.963)
+2022-04-17 22:16:08.910  INFO 3292 --- [reactor-http-nio-3] c.v.m.controller.ProductController       : Saving product : com.vaibhav.mongodb.entities.Product@5a4a5ee1
+2022-04-17 22:16:09.064  INFO 3292 --- [nioEventLoopGroup-3-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:14}] to 127.0.0.1:27017
+2022-04-17 22:19:38.240  INFO 3292 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
